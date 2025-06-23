@@ -10,10 +10,6 @@ Este é meu portfólio pessoal desenvolvido como parte do projeto da disciplina 
 - Links para redes sociais e projetos
 - Publicação via GitHub Pages
 
-## Acesso 
-
-https://carolinedeon.github.io/portfolio-caroline/ 
-
 ## Tecnologias utilizadas
 
 - HTML5
