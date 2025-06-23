@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portfólio de Caroline</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/fonts.css">
+    <link rel="stylesheet" href="src/styles/root.css">
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/main.css" />
+</head>
+<body>
+
+<!-- Cabeçalho com navegação -->
+<header>
+    <button id="toggle-theme" title="Alternar tema">🌙</button>
+    <nav>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#experiencia">Experiencias</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<!-- Seção Home -->
+<section id="home">
+    <h1>Olá, eu sou a Caroline!</h1>
+    <p>Seja muito bem-vindo(a) ao meu portfólio pessoal.</p>
+    <img src="src/assets/images/img.png" alt="Foto da Caroline" class="foto-perfil" />
+    <blockquote>
+        <em>"Apaixonada por mudança e sempre em busca de novos desafios. Busco apresentar aqui um pouco sobre mim e sobre meus projetos  e experiências"</em>
+    </blockquote>
+</section>
+
+<!-- Seção Sobre Mim -->
+<section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou estudante de Ciência da Computação e atuo profissionalmente como assistente de dados e faturamento. Sou apaixonada por matemática, com vários prêmios em olimpíadas da área, e também participei de competições de atletismo, especialmente em corridas de resistência. Venho de Mariano Moro, do meio rural, onde cresci na lida do campo, e hoje busco unir esse conhecimento com a tecnologia.
+
+        Além da programação, me interesso especialmente por sistemas digitais, arquitetura de computadores e automação, áreas que acredito terem grande potencial para modernização.</p>
+</section>
+
+
+<section id="experiencia">
+    <h2>Experiência Profissional</h2>
+    <div class="experiencia-container">
+
+        <div class="experiencia-card">
+            <h3>Assistente de Dados e Faturamento</h3>
+            <p><strong>Empresa:</strong> JL Comércio de Baterias</p>
+            <p><strong>Período:</strong> Mar 2025 - Atual</p>
+            <p>Atualmente, trabalho como assistente de dados e faturamento, onde sou responsável pelo controle e organização de informações importantes para a empresa. Minha rotina envolve análise de dados, conferência de pedidos e apoio nos processos administrativos, garantindo a eficiência e a precisão das operações. Essa experiência tem sido fundamental para desenvolver meu olhar atento aos detalhes, habilidades organizacionais e capacidade de trabalhar com sistemas e ferramentas digitais no dia a dia corporativo.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="projetos">
+    <h2>Projetos</h2>
+    <ul class="projetos-lista">
+        <li>
+            <h3>Projeto da Mini Estação Meteorológica</h3>
+            <p>Desenvolvimento de uma mini estação meteorológica utilizando Arduino, que mede dados como temperatura, umidade e pressão atmosférica. Nesse projeto, sensores captavam as informações do ambiente e processei os dados para monitoramento em tempo real.</p>
+        </li>
+        <li>
+            <h3>Mouse Arcaico (Projeto de Hardware)</h3>
+            <p>
+                Projeto de hardware baseado no protocolo PS/2. Desenvolvido com componentes básicos e lógica sem processador. Inclui documentação da pesquisa, definição dos códigos binários, e simulação funcional no Logisim.
+            </p>
+            <a href="https://drive.google.com/drive/folders/1vic_GkHCM8eOe_PviAkCi6xnCa-29NSW"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn-link">
+                Ver documentação
+            </a>
+        </li>
+
+        <li>
+            <h3>Projeto do Petshop</h3>
+            <p>Desenvolvimento de uma aplicação em C# para gerenciar os serviços de um petshop, com funcionalidades de cadastro de clientes, pets, serviços e agendamentos. O projeto envolveu modelagem de banco de dados, desenvolvimento no Visual Studio e organização das etapas com ferramentas de apoio ao design e à gestão.</p>
+        </li>
+    </ul>
+</section>
+
+
+<section id="contato">
+    <h2>Contato</h2>
+    <form id="form-contato" action="https://formspree.io/f/xkgbqpla" method="POST">
+        <input type="text" name="name" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <input type="tel" name="phone" placeholder="Seu telefone" required>
+        <textarea name="message" placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+
+    <!-- Redes sociais -->
+    <div class="redes-sociais">
+        <a href="https://www.instagram.com/seuusuario" target="_blank" aria-label="Instagram">
+            <img src="src/assets/images/instagram.jpg" alt="Instagram" class="icon-social" />
+        </a>
+        <a href="https://www.linkedin.com/in/caroline-deon-b70998263/" target="_blank" aria-label="LinkedIn">
+            <img src="src/assets/images/linkedin.jpg" alt="LinkedIn" class="icon-social" />
+        </a>
+        <a href="https://github.com/CarolineDeon" target="_blank" aria-label="GitHub">
+            <img src="src/assets/images/github.jpg" alt="GitHub" class="icon-social" />
+        </a>
+    </div>
+
+</section>
+
+
+<!-- Rodapé -->
+<footer>
+    <p>&copy; 2025 - Caroline</p>
+</footer>
+
+
+<script src="src/scripts/script.js"></script>
+
+</body>
+</html>

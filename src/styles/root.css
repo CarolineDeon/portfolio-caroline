@@ -1,0 +1,21 @@
+:root {
+    /* Cores */
+    --color-dark-text: #f5f5f5;
+    --color-gray-50: #f5f5f5;
+    --color-gray-100: #ccc;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-dark-bg: #121212;
+    --color-dark-bg-alt: #222222;
+    --color-dark-input-bg: #333333;
+    --color-dark-border: #555555;
+    --color-dark-button-bg: #444444;
+    --color-dark-button-hover-bg: #e0e0e0;
+
+    /* Fontes */
+    --font-primary: 'Inter', sans-serif;
+    --font-size-base: 16px;
+    --font-size-h1: 2.5rem;
+    --font-size-h2: 2rem;
+    --font-size-p: 1rem;
+}
